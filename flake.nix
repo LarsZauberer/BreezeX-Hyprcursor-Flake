@@ -20,5 +20,6 @@
         mv ./* $out/BreezeX-Black
       '';
     };
+    packages.x86_64-linux.default = inputs.self.packages.x86_64-linux.black;
   };
 }
